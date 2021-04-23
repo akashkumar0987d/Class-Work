@@ -9,10 +9,18 @@ Step 6:- Stop
 #include <stdio.h>
 int main()
 {
-    float f1,f2,f3,f4,f4,sum;
-    printf("Enter f1, f2,f3,f4,f5 : ");
-    scanf("%f %f %f %f %f ",&f1, &f2, &f3, &f4, &f5);
-    sum = f1+f2+f3+f4+f5
-    printf("Sum is %f",a,b,sum);
+    int f1,f2,f3,f4,f5,sum;
+    printf("Enter f1:  ");
+    scanf("%f",&f1);
+    printf("Enter f2:  ");
+    scanf("%f",&f2);
+    printf("Enter f3:  ");
+    scanf("%f",&f3);
+    printf("Enter f4:  ");
+    scanf("%f",&f4);
+    printf("Enter f5:  ");
+    scanf("%f",&f5);
+    sum = f1+f2+f3+f4+f5;
+    printf("Sum is %d",sum);
     return 0;
 }
