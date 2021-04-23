@@ -11,9 +11,9 @@ int main()
 {
     int a,b,sum;
     printf("Enter a: ");
-    scanf("%d %d",&a);
+    scanf("%d",&a);
     printf("Enter b: ");
-    scanf("%d %d",&a);
+    scanf("%d",&a);
     sum=a+b;
     printf("sum of %d and %d is %d",a,b,sum);
     return 0;
