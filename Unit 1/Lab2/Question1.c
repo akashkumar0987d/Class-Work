@@ -2,8 +2,8 @@
    Step 1:- Start
    Step 2:- Declare Variable a, b, and sum
    Step 3:- Input a and b
-   Step 4:- Sum=a+b;
-   Step 5:- print Sum;
+   Step 4:- sum=a+b;
+   Step 5:- print sum;
    Step 6:- Stop   */
 // write a c program for addition of 2 integer number and display its result.
 #include <stdio.h>
