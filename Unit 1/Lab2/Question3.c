@@ -7,13 +7,13 @@
 #include <stdio.h>
 int main()
 {
-    int l, w, area;
+    float l, w, area;
     printf("Enter l:  ");
-    scanf("%d",&l);
+    scanf("%f",&l);
     printf("Enter w:  ");
-    scanf("%d",&w);
+    scanf("%f",&w);
     
     area=l*w;
-    printf("area is %d",area);
+    printf("area is %f",area);
     return 0;
 }
