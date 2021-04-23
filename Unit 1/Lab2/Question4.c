@@ -7,10 +7,10 @@
 #include <stdio.h>
 int main()
 {
-    int l, w, area;
+    float l, w, area;
     printf("Enter l:  ");
-    scanf("%d",&l);
+    scanf("%f",&l);
     area=l*l;
-    printf("area of square is %d",area);
+    printf("area of square is %f",area);
     return 0;
 }
