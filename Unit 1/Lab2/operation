@@ -1,0 +1,42 @@
+/* Algorithm:- 
+Step 1:- Start
+Step 2:- Declare Variable a, b as float
+step 3:- Input a, b
+Step 4:- Calculate sum = a+b
+Step 5:- Calculate subtract a-b
+Step 6:- calcualte multiplication = a*b
+Step 7:- Calculate division a/b
+Step 8:- Print sum, subtract, multiplication,division
+Step 9:- Stop
+*/ 
+
+/* Psuedocode 
+
+Start 
+float a,b
+float sum, subtract, multiplication,division
+take input a,b
+compute sum = a+b
+Compute subtract a-b
+compute multiplication = a*b
+compute division a/b
+Print sum, subtract, multiplication,division
+end
+*/
+
+#include <stdio.h>        // stdio.h library is included 
+int main()                
+{                          //program started
+    float a,b;     //declare variable a, b
+    float sum, subtract, mutliplication, division;  // decare variable sum, subtract, mutliplication, division
+    printf("Enter a:  "); 
+    scanf("%f",&a);        //value of a is obtained and stored in its memory
+    printf("Enter b:  ");
+    scanf("%f",&b);        //value of b is obtained and stored in its memory
+    sum=a+b;               // sum is assigned the value a+b
+    subtract=a-b;          // subtract is assigned the value a-b
+    mutliplication=a*b;    // multiplication is assigned the value a*b
+    division=a/b;          // division is assigned the value a/b
+    printf("Sum is %f \nSubract is %f  \nMultiplication is %f \nDivision is %f  \n",sum,subtract,mutliplication,division);
+    return 0;
+}                      // program ended
