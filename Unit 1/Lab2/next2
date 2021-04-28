@@ -19,3 +19,25 @@ Compute expenditure=sum/5
 print expenditure
 end
 */
+
+#include <stdio.h>        // stdio.h library is included 
+int main()                
+{                          //program started
+    int b,c,e,sum;     //declare variable a, b, c, d, e, sum
+    float a,d;
+    float expenditure;         // decare variable average
+    printf("Enter f1:  "); 
+    scanf("%f",&a);        //value of a is obtained and stored in its memory
+    printf("Enter f2:  ");
+    scanf("%d",&b);        //value of b is obtained and stored in its memory
+    printf("Enter f3:  ");
+    scanf("%d",&c);        //value of c is obtained and stored in its memory
+    printf("Enter f4:  ");
+    scanf("%f",&d);        //value of d is obtained and stored in its memory
+    printf("Enter f5:  ");
+    scanf("%d",&e);         //value of e is obtained and stored in its memory
+    sum = a+b+c+d+e;       // sum is assigned the value a+b+c+d+e
+    expenditure=(float)sum/5;      // aberage is assigned the value sum/5
+    printf("Average is %f",expenditure);    
+    return 0;
+}                      // program ended
