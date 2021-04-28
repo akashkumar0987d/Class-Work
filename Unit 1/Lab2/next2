@@ -1,0 +1,21 @@
+/* Algorithm:- 
+Step 1:- Start
+Step 2:- Declare Variable b, c,  e, sum as int and  a,d, expenditure as float;
+step 3:- Input a, b, c, d and e,
+Step 4:- Calculate sum = a+b+c+d+e 
+Step 5:- Calculate expendituree=sum/5;
+Step 6:- Print expenditure
+Step 7:- Stop
+*/ 
+
+/* Psuedocode 
+
+Start 
+int b,c,e, sum
+float a,d,expenditure
+take input a,b,c,d,e
+Compute sum = a+b+c+d+e
+Compute expenditure=sum/5
+print expenditure
+end
+*/
