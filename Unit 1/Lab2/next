@@ -1,0 +1,42 @@
+/* Algorithm:- 
+Step 1:- Start
+Step 2:- Declare Variable a, b, c, d, e, sum as int and average as float;
+step 3:- Input a, b, c, d and e,
+Step 4:- Calculate sum = a+b+c+d+e 
+Step 5:- Calculate average=sum/5;
+Step 6:- Print average
+Step 7:- Stop
+*/ 
+
+/* Psuedocode 
+
+Start 
+int a,b,c,d,e, sum
+float average
+take input a,b,c,d,e
+Compute sum = a+b+c+d+e
+Compute average=sum/5
+print average
+end
+*/
+
+#include <stdio.h>        // stdio.h library is included 
+int main()                
+{                          //program started
+    int a,b,c,d,e,sum;     //declare variable a, b, c, d, e, sum
+    float average;         // decare variable average
+    printf("Enter f1:  "); 
+    scanf("%d",&a);        //value of a is obtained and stored in its memory
+    printf("Enter f2:  ");
+    scanf("%d",&b);        //value of b is obtained and stored in its memory
+    printf("Enter f3:  ");
+    scanf("%d",&c);        //value of c is obtained and stored in its memory
+    printf("Enter f4:  ");
+    scanf("%d",&d);        //value of d is obtained and stored in its memory
+    printf("Enter f5:  ");
+    scanf("%d",&e);         //value of e is obtained and stored in its memory
+    sum = a+b+c+d+e;       // sum is assigned the value a+b+c+d+e
+    average=sum/5;      // aberage is assigned the value sum/5
+    printf("Sum is %f",average);
+    return 0;
+}                      // program ended
