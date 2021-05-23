@@ -1,0 +1,12 @@
+// write aprogram to check whether number is odd or even if number is even then display the number if odd then number is odd
+
+#include<stdio.h>
+int main()
+{
+int num;
+scanf("%d",&num);
+if(num%2==0)
+printf("%d",num);
+else
+printf("No is odd");
+}
