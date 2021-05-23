@@ -1,0 +1,24 @@
+// Average of 5 number
+
+#include<stdio.h>
+
+void main()
+{
+      int a,b,c,d,e;
+      float avg;
+      printf("Enter 1st Number :");
+      scanf("%d",&a);
+      printf("\nEnter 2nd Number :");
+      scanf("%d",&b);
+      printf("\nEnter 3rd Number :");
+      scanf("%d",&c);
+      printf("\nEnter 4th Number :");
+      scanf("%d",&d);
+      printf("\nEnter 5th Number :");
+      scanf("%d",&e);
+
+      avg=(a+b+c+d+e)/5;
+
+      printf("\nAverage Of These Numbers Is : %f",avg);
+
+}
