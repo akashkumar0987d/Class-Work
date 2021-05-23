@@ -1,0 +1,14 @@
+//Volume of box
+
+#include <stdio.h>
+
+int main()
+{
+    float lenght,breadth,height;
+    float volume;
+    printf("Enter lenght,breadth and height:  ");
+    scanf("%f %f %f",&lenght,&breadth,&height);
+    volume=lenght*breadth*height;
+    printf("%f",volume);
+    return 0;
+}
