@@ -1,0 +1,19 @@
+//Area of rectangle
+
+#include<stdio.h>
+
+void main()
+{
+     int l,b,A,P;
+     printf("Enter Length Of Rectangle :");
+     scanf("%d",&l);
+     
+     printf("\nEnter Breadth Of Rectangle :");
+     scanf("%d",&b);
+
+     P = 2(l+b);
+     A = l*b;
+     
+     printf("\nPerimeter Of Rectangle : %d",P);
+     printf("\nArea Of Rectangle : %d",A); 
+}
