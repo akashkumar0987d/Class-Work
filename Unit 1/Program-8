@@ -1,0 +1,27 @@
+//There are Five Friends  A, B ,C ,D and E, they have spend the money. 
+//A and D has pay the money in decimal number but remaining all has pay in integer value of money. Calculate expenditure of each person.
+
+
+
+#include<stdio.h>
+
+void main()
+{
+      int b,c,e;
+      float d,a,avg;
+      printf("Enter 1st Number :");
+      scanf("%f",&a);
+      printf("\nEnter 2nd Number :");
+      scanf("%d",&b);
+      printf("\nEnter 3rd Number :");
+      scanf("%d",&c);
+      printf("\nEnter 4th Number :");
+      scanf("%f",&d);
+      printf("\nEnter 5th Number :");
+      scanf("%d",&e);
+
+      avg=(a+b+c+d+e)/5;
+
+      printf("\nAverage Of These Numbers Is : %f",avg);
+
+}
