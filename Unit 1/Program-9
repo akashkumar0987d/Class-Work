@@ -1,0 +1,24 @@
+//ADD SUB MULTIPLY DIVIDE
+
+#include<stdio.h>
+
+void main()
+{
+      
+      float a,b,sum,diff,multi,div;
+      printf("Enter 1st Number :");
+      scanf("%f",&a);
+      printf("\nEnter 2nd Number :");
+      scanf("%f",&b);
+
+      sum=a+b;
+      multi=a*b;
+      diff=a-b;
+      div=a/b;
+      
+      printf("\n1.Addition Of These Numbers Is : %f",sum);
+      printf("\n2.Multiplication Of These Numbers Is : %f",multi);
+      printf("\n3.Subtraction Of These Numbers Is : %f",diff);
+      printf("\n4.Division Of These Numbers Is : %f",div);
+
+}
