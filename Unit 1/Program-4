@@ -1,0 +1,24 @@
+//Write a  c program to find sum of 5 float number
+
+#include<stdio.h>
+
+void main()
+{
+     float a,b,c,d,e;
+     printf("Enter Number 1 :");
+     scanf("%f",&a);
+     
+     printf("\nEnter Number 2 :");
+     scanf("%f",&b);
+     
+     printf("\nEnter Number 3 :");
+     scanf("%f",&c);
+     
+     printf("\nEnter Number 4 :");
+     scanf("%f",&d);
+     
+     printf("\nEnter Number 5 :");
+     scanf("%f",&e);
+     
+     printf("\nSum Of Numbers : %f",a+b+c+d+e); 
+}
