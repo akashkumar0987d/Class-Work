@@ -1,0 +1,29 @@
+//Largest of 3 int
+
+#include<stdio.h>
+
+void main()
+{
+      int a,b,c;
+      printf("Enter Number 1 :");
+      scanf("%d",&a);
+      printf("\nEnter Number 2 :");
+      scanf("%d",&b);
+      printf("\nEnter Number 3 :");
+      scanf("%d",&c);
+      
+      if((a>=b)&&(a>=c))
+      { 
+         printf("\nNumber 1 is largest");
+      }
+       
+      if((b>=a)&&(b>=c))
+      { 
+          printf("\nNumber 2 is largest");
+      }
+ 
+      if((c>=a)&&(c>=b))
+      {
+             printf("\nNumber 3 is largest");
+      } 
+}
