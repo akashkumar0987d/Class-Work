@@ -1,0 +1,24 @@
+//Negative or not
+
+#include<stdio.h>
+
+void main()
+{
+      int a;
+      printf("Enter the Number :");
+      scanf("%d",&a);
+      if(a<0)
+      {
+
+         printf("\nThe entered number is negative");
+
+      }
+
+      if(a>=0)
+      {
+
+         printf("\nThe entered number is a positive number");
+
+      }
+
+} 
