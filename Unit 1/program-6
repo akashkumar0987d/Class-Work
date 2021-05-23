@@ -1,0 +1,14 @@
+// area of square 
+
+#include<stdio.h>
+
+void main()
+{
+     int a,Area;
+     printf("Enter Side Of Square :");
+     scanf("%d",&a);
+     
+     Area = a*a;
+     
+     printf("\nArea Of Square : %d",Area); 
+}
