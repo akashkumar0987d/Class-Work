@@ -1,0 +1,17 @@
+/*  Write a C program to copy the string
+String1 = Hello
+Copy string1 to string2
+Display string2   */ 
+
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+   char str1[20] = "HELLO";
+   char str2[20];
+   strcpy(str2, str1);
+
+   puts(str2); 
+
+   return 0;
+}
