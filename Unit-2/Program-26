@@ -1,0 +1,16 @@
+// Write a C program to declare char array and display the element of char array. 
+
+#include <stdio.h>
+#include<string.h>
+int main()
+{
+    char arr[100];
+    printf("Enter the sring:  ");
+    gets(arr);
+    int n= strlen(arr);
+    for(int i=0;i<n;i++)
+    {
+        printf("%c",arr[i]);
+    }
+    return 0;
+}
