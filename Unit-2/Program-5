@@ -1,4 +1,4 @@
-// Write a c program to find factorial of n using while loop
+// Write a c program to find factorial of n using do while loop
 
 #include <stdio.h>
 
