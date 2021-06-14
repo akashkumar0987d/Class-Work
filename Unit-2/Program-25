@@ -1,0 +1,28 @@
+/*  Write a C program to find out the following operation on array of 5 integers.
+A. Calculate average of array element 
+B. Calculate multiplication of array
+C. Summation of array element   */ 
+
+#include <stdio.h>
+int main()
+{
+    int n,temp;
+    printf("Enter size of array: ");
+    scanf("%d",&n);
+    int a[n];
+    printf("Enter the elements of array: ");
+    for(int i=0;i<n;i++)
+    scanf("%d",&a[i]);
+    int sum=0;
+    int multi=1;
+    for(int i=0;i<n;i++)
+    {
+        sum=sum+a[i];
+        multi=multi*a[i];
+    }
+    
+    printf("Sum of all elements is %d\n",sum);
+    printf("Average of all elements is %f\n", (float)sum/n);
+    printf("Multiplication of all elements is %d",multi);
+    return 0;
+}
