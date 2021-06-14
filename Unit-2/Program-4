@@ -1,0 +1,18 @@
+// write a c program to find the sum of even number till a given number
+
+#include <stdio.h>
+
+int main()
+{
+    int n;
+    printf("Enter the value of n: ");
+    scanf("%d",&n);
+    int i=0,sum=0;
+    while(i<=n)
+    {
+        sum=sum+i;
+        i+=2;
+    }
+    printf("The sum  of even no till %d is %d",n,sum);
+    return 0;
+}
