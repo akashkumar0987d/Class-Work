@@ -1,0 +1,51 @@
+/*  Write a C program to calculate marks of student and provide grade of student following are
+subject
+A English
+B Math
+C Science
+D Social studies
+E Literature
+If
+ marks >= 60 then first class
+marks >= 45 then Second class
+ marks >= 35 then third class
+Marks < 35 then Fail    */ 
+
+#include <stdio.h>
+
+int main()
+{
+    int eng,math,science,social,literature; 
+    float per; 
+
+    /* Input marks of five subjects from user */
+    printf("Enter five subjects marks: ");
+    scanf("%d%d%d%d%d", &eng, &math, &science, &social, &literature);
+
+
+    /* Calculate percentage */
+    per = (eng+math+science+social+literature) / 5.0;
+
+    printf("Percentage = %.2f\n", per);
+
+
+    /* Find grade according to the percentage */
+    if(per >= 60)
+    {
+        printf("1st class");
+    }
+    else if(per >= 45)
+    {
+        printf("2nd class");
+    }
+    else if(per >= 35)
+    {
+        printf("3rd class");
+    }
+    else
+    {
+        printf("Fail");
+    }
+
+    return 0;
+}
